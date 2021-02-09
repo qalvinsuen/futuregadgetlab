@@ -30,8 +30,6 @@ class Steins(commands.Cog):
 			await message.channel.send(file=discord.File("steins/training.png"))
 		elif 'trick' in content:
 			await message.channel.send(file=discord.File("steins/tricks.png"))
-		elif 'fap' in content or 'masturbate' in content:
-			await message.channel.send(file=discord.File("steins/fap.png"))
 		elif 'pocket' in content or 'masturbate' in content:
 			await message.channel.send(file=discord.File("steins/handsinpockets.png"))
 		elif 'stein' in content or 'choice' in content:
@@ -41,8 +39,6 @@ class Steins(commands.Cog):
 		# GIFs
 		elif 'alone' in content or 'lonely' in content or 'talking to myself' in content or 'talking to yourself' in content:
 			await message.channel.send(file=discord.File("steins/talking.gif"))
-		elif ' perv' in content or 'hentai' in content or 'pervert' in content or content == 'perv':
-			await message.channel.send(file=discord.File("steins/pervert.gif"))
 		elif 'research' in content or 'pose' in content:
 			await message.channel.send(file=discord.File("steins/research.gif"))
 		elif 'tell me' in content or 'organization' in content:
